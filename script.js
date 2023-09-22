@@ -10,7 +10,7 @@ var numbers = images.length;
 randomNumber1 = Math.floor(Math.random () * numbers);
 var oneImage = images [randomNumber1];
 
-var firstDiceeImage = "/images/" + oneImage;
+var firstDiceeImage = "images/" + oneImage;
 document.querySelector("img.img1").setAttribute('src', firstDiceeImage );
 
 
@@ -21,7 +21,7 @@ var twoImage = images [randomNumber2];
 console.log(randomNumber1)
 console.log(randomNumber2)
 
-var secondDiceeImage = "/images/" + twoImage;
+var secondDiceeImage = "images/" + twoImage;
 document.querySelector("img.img2").setAttribute('src', secondDiceeImage );
 
 // Para definir la condicion
